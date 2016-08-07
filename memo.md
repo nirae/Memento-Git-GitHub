@@ -1,5 +1,7 @@
 # Memento-Git-GitHub
 
+## Création/Gestion de mon repository et commits
+
 Faire de mon répertoire un repository Git :
 
 `git init`
@@ -12,7 +14,7 @@ Voir l’état de mon repository :
 
 ------------------
 
-Faire premier commit :
+Faire mon premier commit :
 
 ``git add .``
 
@@ -20,7 +22,7 @@ Faire premier commit :
 
 ------------------
 
-Faire commit(s) suivant(s) :
+Faire les commit(s) suivant(s) :
 
 ``git commit -am “Mon message de commit”``
 
@@ -32,7 +34,7 @@ Voir la liste des commits :
 
 ------------------
 
-Voir X derniers commits :
+Voir les X derniers commits :
 
 ``git log -n X``
 
@@ -55,6 +57,8 @@ Revenir sur le dernier commit :
 ``git checkout master``
 
 ------------------
+
+## Créer et modifier mes branches
 
 Afficher les branches :
 
@@ -100,17 +104,19 @@ Supprimer une branche non fusionnée /!\ :
 
 Fusionner une branche avec la branche master :
 
-positionné sur la branche master
+Positionné sur la branche master
 
 ``git merge <nom_branche_a_fusionner_avec_master>``
 
-------------------
-
 **EN CAS DE CONFLIT**
-Dans le fichier est indiqué l’endroit de conflit entre <<<<<<  >>>>>>.
+
+Dans le fichier est indiqué l’endroit de conflit entre **<<<<<<  >>>>>>**.
+
 Une fois résolu à la main -> add -> commit puis enregistrer le fichier qui s'ouvre dans la console
 
 ------------------
+
+## Mettre de côté mon travail temporairement
 
 Mettre de côté ce qu’on fait pour faire autre chose puis y revenir sans faire de commit :
 
@@ -123,6 +129,8 @@ Récupérer ce qui a été mis de côté :
 ``git stash pop``
 
 ------------------
+
+## GitHub / Travailler à plusieurs
 
 Envoyer une branche sur GitHub :
 

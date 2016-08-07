@@ -56,8 +56,6 @@ Revenir sur le dernier commit :
 
 ``git checkout master``
 
-------------------
-
 ## Créer et modifier mes branches
 
 Afficher les branches :
@@ -114,8 +112,6 @@ Dans le fichier est indiqué l’endroit de conflit entre **<<<<<<  >>>>>>**.
 
 Une fois résolu à la main -> add -> commit puis enregistrer le fichier qui s'ouvre dans la console
 
-------------------
-
 ## Mettre de côté mon travail temporairement
 
 Mettre de côté ce qu’on fait pour faire autre chose puis y revenir sans faire de commit :
@@ -127,8 +123,6 @@ Mettre de côté ce qu’on fait pour faire autre chose puis y revenir sans fair
 Récupérer ce qui a été mis de côté :
 
 ``git stash pop``
-
-------------------
 
 ## GitHub / Travailler à plusieurs
 

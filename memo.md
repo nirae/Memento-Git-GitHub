@@ -126,6 +126,10 @@ Récupérer ce qui a été mis de côté :
 
 ## GitHub / Travailler à plusieurs
 
+Cloner un projet GitHub via https:
+
+`git clone <lien_https_du_projet>`
+
 Envoyer une branche sur GitHub :
 
 ``git push origin <nom_branche>``

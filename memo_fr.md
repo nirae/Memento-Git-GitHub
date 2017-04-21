@@ -157,3 +157,12 @@ Savoir qui a fait quoi :
 Détail de ce qui a été fait sur un commit :
 
 ``git show <sha_commit>``
+
+
+## Divers
+
+Rajouter son .gitignore APRES avoir fait le premier git add :
+
+``git rm -r --cached . ``
+``git add .``
+``git commit -am "Suppression des fichiers ignorés"``

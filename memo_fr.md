@@ -161,8 +161,12 @@ Détail de ce qui a été fait sur un commit :
 
 ## Divers
 
-Rajouter son .gitignore APRES avoir fait le premier git add :
+" J'ai oublié d'ajouter le .gitignore et j'ai déjà add et commit, tout va partir sur GitHub :'( "
+
+DON'T PANIC
+
+Ajouter le ".gitignore" APRES avoir fait le premier git add :
 
 ``git rm -r --cached . ``
 ``git add .``
-``git commit -am "Suppression des fichiers ignorés"``
+``git commit -am "Suppression des fichiers ignorés comme un boss"``

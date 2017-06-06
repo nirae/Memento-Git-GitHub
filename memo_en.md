@@ -156,3 +156,16 @@ Know who did what :
 Details of what was done on a commit :
 
 ``git show <sha_commit>``
+
+
+## Divers
+
+" I forgot to add the .gitignore and I already have add . and commit, everything will go on GitHub :'( "
+
+DON'T PANIC
+
+Add a ".gitignore" after have made a first "git add" :
+
+``git rm -r --cached . ``
+``git add .``
+``git commit -am "Deleting ignored files like a boss"``

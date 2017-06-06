@@ -158,7 +158,7 @@ Details of what was done on a commit :
 ``git show <sha_commit>``
 
 
-## Divers
+## Others
 
 " I forgot to add the .gitignore and I already have add . and commit, everything will go on GitHub :'( "
 
